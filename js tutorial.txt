@@ -1,0 +1,23 @@
+function Welcome(){
+return <h1>Hello, IT-KAMASUTRA</h1>;        // eto obi4naia functzia
+}                                                                      // obe komponenti
+cont Welcome = () => {
+return <h1>Hello, IT-KAMASUTRA</h1>;    // eto strelo4naia functzia// toje samoe tolico uprosheaet sintaxis
+}
+cont Welcome = x => {                  // esli esti 1 argument ne staviti scobki
+return 4 * x;
+}
+let a =(d, c) => d*c
+let a = (d, c)=> {     // obe odinakovie
+return d*c;
+}
+////////////////////////////////////////////////////////////////
+Import functzii iz drugogo faila
+
+import openGoogle from './google.js';   // otnositelino faila gde napisano
+import openGoogle from './../yandex';   // shag nazad otnositelino faila
+export default openGoole;  //razreshaet exportirovati functziu(bez 
+export default  // takoi tip exporta kotorii exportiret ne obrasheaia vnimanie na nazvanie functii
+Tegi  komponentov nazivati bolshoi bukvoi
+V JSX luche selectori nazivati ne (class) a className
+Izu4iti GRID

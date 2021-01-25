@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1 id="main-heading"></h1>
+    <h2>Arsenal cempik</h2>
+    <h3>Ibra is the best player of the wordl</h3>
+    <h5>im the best developer</h5>
+    <h6>beeeeeeeeeeeeeeeeeee</h6>
+    <script src="https://code.jquery.com/jquery-2.1.0.js" src="script.js"></script>
+    <script>
+        var newHeadingText = prompt("Ведите заголовок:"); // input text vi veremenuiu
+        $("#main-heading").text(newHeadingText);    // # - id selectora// metod .text peredaet text iz jQuery c HTML cod
+        $("body").append("<p>Это новый парагаф</p>"); // dobavleaet v koentz tega body
+        $("body").append("<p>Это новый парагафa</p>");
+        
+        for (let i = 0; i < 5; i++) {
+            $("body").append("<p>Это hey bay baey</p>") // 5 dibavuaet v koetz tega body element
+        }
+        for (let index = 1; index < 6; index++) {
+            index *= 1000;
+            $("h3").fadeOut(index);
+            
+            $("h3").fadeIn(index);
+            index /=1000;
+
+        }
+        
+
+        $("p").fadeOut(3000); // u vseh tegah p dobavliaet effect iscezanie v te4enii 3 sec
+        $("p").fadeIn(3000); // mojna ispolzovati oba srau
+        $("h1").slideUp(1000).slideDown(1000);// mojno staviti v tzikli
+        $("h2").show().hide();
+        
+        var friends = ["Mark", "zil", "sir"];
+        for (let y = 0; y < friends.length; y++) {
+            $("body").append("<p>" + friends[y] + "</p>");
+        }
+       
+        $("h5").slideUp( 300 ).delay( 800 ).fadeIn( 400 );
+        $("h6").fadeTo(2000, 0.5);
+
+        
+
+
+
+
+
+
+    </script>
+</body>
+
+</html>
