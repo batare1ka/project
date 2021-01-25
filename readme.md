@@ -1,2 +1,2 @@
 # Git and Github Course
-crash course for Git
+crash course for Gita
